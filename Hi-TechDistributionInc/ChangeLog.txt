@@ -1,0 +1,29 @@
+Version 0.5:
+Added remember me button
+Added hide password button
+Added quality of life improvements
+Added Welcome tab
+Added experimental Dark Mode
+Added Skip Login toggle
+Version 0.6:
+Added customer tab with full functionality
+Added ability to change your password in welcome tab
+Finished database schema
+Fixed some issues with darkmode
+Version 0.7:
+Added book tab with full functionality
+Added Category tab with full functionality
+Added Publisher tab with full functionality
+Added Author Books tab with full functionality
+Fixed darkmode to work with new tabs
+Fixed bug with saving using entity framework
+Fixed bug where changing tab wouldn't change name of form
+Version 0.8:
+Added Books tab with full functionality
+Added Orders tab with full functionality
+Fixed darkmode to work with new tabs
+Version 0.9:
+Added data validation to each tab
+Added quality of life improvement to Author books
+Added ability to copy ISBN from book tab	
+Finished preliminary testing of the applications functionality

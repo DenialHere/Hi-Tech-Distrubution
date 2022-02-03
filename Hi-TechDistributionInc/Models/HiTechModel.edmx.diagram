@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="21dd2d5770ad453fbf197b9483a33a1f" Name="Diagram1">
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.Author" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.AuthorBook" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.Book" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.Catergory" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.Customer" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.Employee" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.Job" Width="1.5" PointX="1.5" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.Order" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.OrdersLine" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.Publisher" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.sysdiagram" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechDistributionDBModel.User" Width="1.5" PointX="3" PointY="20.75" IsExpanded="true" />
+        <AssociationConnector Association="HiTechDistributionDBModel.FK_AuthorBooks_Author" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDistributionDBModel.FK_AuthorBooks_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDistributionDBModel.FK_Books_Catergories" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDistributionDBModel.FK_Books_Publishers" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDistributionDBModel.FK_OrdersLines_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDistributionDBModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDistributionDBModel.FK_Employees_Jobs1" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDistributionDBModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDistributionDBModel.FK_Users_Employees1" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechDistributionDBModel.FK_OrdersLines_Orders" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
